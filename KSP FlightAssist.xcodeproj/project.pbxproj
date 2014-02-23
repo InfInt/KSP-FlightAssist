@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDAC0A2518B9F63C007A5A15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAC0A2418B9F63C007A5A15 /* Foundation.framework */; };
+		DDAC0A2718B9F63C007A5A15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAC0A2618B9F63C007A5A15 /* CoreGraphics.framework */; };
+		DDAC0A2918B9F63C007A5A15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAC0A2818B9F63C007A5A15 /* UIKit.framework */; };
+		DDAC0A2B18B9F63D007A5A15 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAC0A2A18B9F63D007A5A15 /* GLKit.framework */; };
+		DDAC0A2D18B9F63D007A5A15 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAC0A2C18B9F63D007A5A15 /* OpenGLES.framework */; };
+		DDAC0A3318B9F63D007A5A15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDAC0A3118B9F63D007A5A15 /* InfoPlist.strings */; };
+		DDAC0A3518B9F63D007A5A15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAC0A3418B9F63D007A5A15 /* main.m */; };
+		DDAC0A3918B9F63D007A5A15 /* fa_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAC0A3818B9F63D007A5A15 /* fa_AppDelegate.m */; };
+		DDAC0A3C18B9F63D007A5A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAC0A3A18B9F63D007A5A15 /* Main.storyboard */; };
+		DDAC0A3E18B9F63D007A5A15 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DDAC0A3D18B9F63D007A5A15 /* Shader.fsh */; };
+		DDAC0A4018B9F63D007A5A15 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DDAC0A3F18B9F63D007A5A15 /* Shader.vsh */; };
+		DDAC0A4318B9F63D007A5A15 /* fa_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAC0A4218B9F63D007A5A15 /* fa_ViewController.m */; };
+		DDAC0A4518B9F63D007A5A15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAC0A4418B9F63D007A5A15 /* Images.xcassets */; };
+		DDAC0A4C18B9F63D007A5A15 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAC0A4B18B9F63D007A5A15 /* XCTest.framework */; };
+		DDAC0A4D18B9F63D007A5A15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAC0A2418B9F63C007A5A15 /* Foundation.framework */; };
+		DDAC0A4E18B9F63D007A5A15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAC0A2818B9F63C007A5A15 /* UIKit.framework */; };
+		DDAC0A5618B9F63D007A5A15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDAC0A5418B9F63D007A5A15 /* InfoPlist.strings */; };
+		DDAC0A5818B9F63D007A5A15 /* KSP_FlightAssistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAC0A5718B9F63D007A5A15 /* KSP_FlightAssistTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDAC0A4F18B9F63D007A5A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAC0A1918B9F63C007A5A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAC0A2018B9F63C007A5A15;
+			remoteInfo = "KSP FlightAssist";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDAC0A2118B9F63C007A5A15 /* KSP FlightAssist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KSP FlightAssist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAC0A2418B9F63C007A5A15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDAC0A2618B9F63C007A5A15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDAC0A2818B9F63C007A5A15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDAC0A2A18B9F63D007A5A15 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		DDAC0A2C18B9F63D007A5A15 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DDAC0A3018B9F63D007A5A15 /* KSP FlightAssist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSP FlightAssist-Info.plist"; sourceTree = "<group>"; };
+		DDAC0A3218B9F63D007A5A15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDAC0A3418B9F63D007A5A15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDAC0A3618B9F63D007A5A15 /* KSP FlightAssist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KSP FlightAssist-Prefix.pch"; sourceTree = "<group>"; };
+		DDAC0A3718B9F63D007A5A15 /* fa_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fa_AppDelegate.h; sourceTree = "<group>"; };
+		DDAC0A3818B9F63D007A5A15 /* fa_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fa_AppDelegate.m; sourceTree = "<group>"; };
+		DDAC0A3B18B9F63D007A5A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDAC0A3D18B9F63D007A5A15 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		DDAC0A3F18B9F63D007A5A15 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		DDAC0A4118B9F63D007A5A15 /* fa_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fa_ViewController.h; sourceTree = "<group>"; };
+		DDAC0A4218B9F63D007A5A15 /* fa_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fa_ViewController.m; sourceTree = "<group>"; };
+		DDAC0A4418B9F63D007A5A15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDAC0A4A18B9F63D007A5A15 /* KSP FlightAssistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KSP FlightAssistTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAC0A4B18B9F63D007A5A15 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DDAC0A5318B9F63D007A5A15 /* KSP FlightAssistTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSP FlightAssistTests-Info.plist"; sourceTree = "<group>"; };
+		DDAC0A5518B9F63D007A5A15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDAC0A5718B9F63D007A5A15 /* KSP_FlightAssistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSP_FlightAssistTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDAC0A1E18B9F63C007A5A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAC0A2D18B9F63D007A5A15 /* OpenGLES.framework in Frameworks */,
+				DDAC0A2718B9F63C007A5A15 /* CoreGraphics.framework in Frameworks */,
+				DDAC0A2918B9F63C007A5A15 /* UIKit.framework in Frameworks */,
+				DDAC0A2B18B9F63D007A5A15 /* GLKit.framework in Frameworks */,
+				DDAC0A2518B9F63C007A5A15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAC0A4718B9F63D007A5A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAC0A4C18B9F63D007A5A15 /* XCTest.framework in Frameworks */,
+				DDAC0A4E18B9F63D007A5A15 /* UIKit.framework in Frameworks */,
+				DDAC0A4D18B9F63D007A5A15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDAC0A1818B9F63C007A5A15 = {
+			isa = PBXGroup;
+			children = (
+				DDAC0A2E18B9F63D007A5A15 /* KSP FlightAssist */,
+				DDAC0A5118B9F63D007A5A15 /* KSP FlightAssistTests */,
+				DDAC0A2318B9F63C007A5A15 /* Frameworks */,
+				DDAC0A2218B9F63C007A5A15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDAC0A2218B9F63C007A5A15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDAC0A2118B9F63C007A5A15 /* KSP FlightAssist.app */,
+				DDAC0A4A18B9F63D007A5A15 /* KSP FlightAssistTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDAC0A2318B9F63C007A5A15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDAC0A2418B9F63C007A5A15 /* Foundation.framework */,
+				DDAC0A2618B9F63C007A5A15 /* CoreGraphics.framework */,
+				DDAC0A2818B9F63C007A5A15 /* UIKit.framework */,
+				DDAC0A2A18B9F63D007A5A15 /* GLKit.framework */,
+				DDAC0A2C18B9F63D007A5A15 /* OpenGLES.framework */,
+				DDAC0A4B18B9F63D007A5A15 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDAC0A2E18B9F63D007A5A15 /* KSP FlightAssist */ = {
+			isa = PBXGroup;
+			children = (
+				DDAC0A3718B9F63D007A5A15 /* fa_AppDelegate.h */,
+				DDAC0A3818B9F63D007A5A15 /* fa_AppDelegate.m */,
+				DDAC0A3A18B9F63D007A5A15 /* Main.storyboard */,
+				DDAC0A3D18B9F63D007A5A15 /* Shader.fsh */,
+				DDAC0A3F18B9F63D007A5A15 /* Shader.vsh */,
+				DDAC0A4118B9F63D007A5A15 /* fa_ViewController.h */,
+				DDAC0A4218B9F63D007A5A15 /* fa_ViewController.m */,
+				DDAC0A4418B9F63D007A5A15 /* Images.xcassets */,
+				DDAC0A2F18B9F63D007A5A15 /* Supporting Files */,
+			);
+			path = "KSP FlightAssist";
+			sourceTree = "<group>";
+		};
+		DDAC0A2F18B9F63D007A5A15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDAC0A3018B9F63D007A5A15 /* KSP FlightAssist-Info.plist */,
+				DDAC0A3118B9F63D007A5A15 /* InfoPlist.strings */,
+				DDAC0A3418B9F63D007A5A15 /* main.m */,
+				DDAC0A3618B9F63D007A5A15 /* KSP FlightAssist-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDAC0A5118B9F63D007A5A15 /* KSP FlightAssistTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDAC0A5718B9F63D007A5A15 /* KSP_FlightAssistTests.m */,
+				DDAC0A5218B9F63D007A5A15 /* Supporting Files */,
+			);
+			path = "KSP FlightAssistTests";
+			sourceTree = "<group>";
+		};
+		DDAC0A5218B9F63D007A5A15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDAC0A5318B9F63D007A5A15 /* KSP FlightAssistTests-Info.plist */,
+				DDAC0A5418B9F63D007A5A15 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDAC0A2018B9F63C007A5A15 /* KSP FlightAssist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAC0A5B18B9F63D007A5A15 /* Build configuration list for PBXNativeTarget "KSP FlightAssist" */;
+			buildPhases = (
+				DDAC0A1D18B9F63C007A5A15 /* Sources */,
+				DDAC0A1E18B9F63C007A5A15 /* Frameworks */,
+				DDAC0A1F18B9F63C007A5A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KSP FlightAssist";
+			productName = "KSP FlightAssist";
+			productReference = DDAC0A2118B9F63C007A5A15 /* KSP FlightAssist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDAC0A4918B9F63D007A5A15 /* KSP FlightAssistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAC0A5E18B9F63D007A5A15 /* Build configuration list for PBXNativeTarget "KSP FlightAssistTests" */;
+			buildPhases = (
+				DDAC0A4618B9F63D007A5A15 /* Sources */,
+				DDAC0A4718B9F63D007A5A15 /* Frameworks */,
+				DDAC0A4818B9F63D007A5A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDAC0A5018B9F63D007A5A15 /* PBXTargetDependency */,
+			);
+			name = "KSP FlightAssistTests";
+			productName = "KSP FlightAssistTests";
+			productReference = DDAC0A4A18B9F63D007A5A15 /* KSP FlightAssistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDAC0A1918B9F63C007A5A15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "fa-";
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jonas Latza";
+				TargetAttributes = {
+					DDAC0A4918B9F63D007A5A15 = {
+						TestTargetID = DDAC0A2018B9F63C007A5A15;
+					};
+				};
+			};
+			buildConfigurationList = DDAC0A1C18B9F63C007A5A15 /* Build configuration list for PBXProject "KSP FlightAssist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDAC0A1818B9F63C007A5A15;
+			productRefGroup = DDAC0A2218B9F63C007A5A15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDAC0A2018B9F63C007A5A15 /* KSP FlightAssist */,
+				DDAC0A4918B9F63D007A5A15 /* KSP FlightAssistTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDAC0A1F18B9F63C007A5A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAC0A4018B9F63D007A5A15 /* Shader.vsh in Resources */,
+				DDAC0A4518B9F63D007A5A15 /* Images.xcassets in Resources */,
+				DDAC0A3E18B9F63D007A5A15 /* Shader.fsh in Resources */,
+				DDAC0A3318B9F63D007A5A15 /* InfoPlist.strings in Resources */,
+				DDAC0A3C18B9F63D007A5A15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAC0A4818B9F63D007A5A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAC0A5618B9F63D007A5A15 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDAC0A1D18B9F63C007A5A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAC0A4318B9F63D007A5A15 /* fa_ViewController.m in Sources */,
+				DDAC0A3518B9F63D007A5A15 /* main.m in Sources */,
+				DDAC0A3918B9F63D007A5A15 /* fa_AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAC0A4618B9F63D007A5A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAC0A5818B9F63D007A5A15 /* KSP_FlightAssistTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDAC0A5018B9F63D007A5A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDAC0A2018B9F63C007A5A15 /* KSP FlightAssist */;
+			targetProxy = DDAC0A4F18B9F63D007A5A15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDAC0A3118B9F63D007A5A15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDAC0A3218B9F63D007A5A15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDAC0A3A18B9F63D007A5A15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDAC0A3B18B9F63D007A5A15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDAC0A5418B9F63D007A5A15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDAC0A5518B9F63D007A5A15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDAC0A5918B9F63D007A5A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DDAC0A5A18B9F63D007A5A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDAC0A5C18B9F63D007A5A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSP FlightAssist/KSP FlightAssist-Prefix.pch";
+				INFOPLIST_FILE = "KSP FlightAssist/KSP FlightAssist-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDAC0A5D18B9F63D007A5A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSP FlightAssist/KSP FlightAssist-Prefix.pch";
+				INFOPLIST_FILE = "KSP FlightAssist/KSP FlightAssist-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DDAC0A5F18B9F63D007A5A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KSP FlightAssist.app/KSP FlightAssist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSP FlightAssist/KSP FlightAssist-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KSP FlightAssistTests/KSP FlightAssistTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DDAC0A6018B9F63D007A5A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KSP FlightAssist.app/KSP FlightAssist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSP FlightAssist/KSP FlightAssist-Prefix.pch";
+				INFOPLIST_FILE = "KSP FlightAssistTests/KSP FlightAssistTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDAC0A1C18B9F63C007A5A15 /* Build configuration list for PBXProject "KSP FlightAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAC0A5918B9F63D007A5A15 /* Debug */,
+				DDAC0A5A18B9F63D007A5A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAC0A5B18B9F63D007A5A15 /* Build configuration list for PBXNativeTarget "KSP FlightAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAC0A5C18B9F63D007A5A15 /* Debug */,
+				DDAC0A5D18B9F63D007A5A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDAC0A5E18B9F63D007A5A15 /* Build configuration list for PBXNativeTarget "KSP FlightAssistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAC0A5F18B9F63D007A5A15 /* Debug */,
+				DDAC0A6018B9F63D007A5A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDAC0A1918B9F63C007A5A15 /* Project object */;
+}
